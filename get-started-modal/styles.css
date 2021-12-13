@@ -1,0 +1,172 @@
+* {
+    border: 0 solid #e2e8f0;
+}
+
+@media screen and (min-width: 832px) {
+    .modal {
+        padding: 90px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: left;
+    }
+
+    .tagline {
+        font-size: 48px;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .modal {
+        padding: 56px;
+    }
+
+    .tagline {
+        font-size: 40px;
+    }
+
+    .free {
+        margin-right: 12px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal {
+    box-sizing: border-box;
+    min-width: 0;
+    width: 100;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('public/img/cta-bg.svg');
+    background-size: cover;
+    border-radius: 0.75rem;
+    padding: 32px;
+    max-width: 900px;
+    color: var(--theme-ui-colors-text,#000000);
+    box-shadow: 
+        0px 100px 80px rgb(0 0 0 / 7%), 
+        0px 42px 33px rgb(0 0 0 / 5%), 
+        0px 22px 17px rgb(0 0 0 / 4%), 
+        0px 12px 10px rgb(0 0 0 / 3%), 
+        0px 6px 5px rgb(0 0 0 / 2%), 
+        0px 3px 3px rgb(0 0 0 / 1%);
+    padding-left: 45px;
+}
+
+.modal-container {
+    width: 100%;
+    max-width: 840px;
+}
+
+.tagline {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-family: Acumin Pro,Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    line-height: 1;
+    font-weight: inherit;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    scroll-margin-inline-end: 0px;
+    text-align: left;
+}
+
+.tagline-important {
+    font-weight: 700;
+}
+
+.details {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    max-width: 36rem;
+    line-height: 1.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+.free {
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 12px;
+    min-width: 0;
+    display: inline-flex;
+    --webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    color: var(--theme-ui-colors-background,#fff);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 3rem;
+    font-weight: 600;
+    box-shadow: 
+        0px 30px 30px rgb(0 0 0 / 2%), 
+        0px 0px 8px rgb(0 0 0 / 3%), 
+        0px 1px 0px rgb(0 0 0 / 5%);
+    transition: opacity .2s;
+    background: linear-gradient(90deg,#3F00A5 0%,#813EEF 100%);
+    text-decoration: none;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    
+}
+
+.docs {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: inline-flex;
+    --webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+    background-color: var(--theme-ui-colors-background,#fff);
+    color: var(--theme-ui-colors-text, #000000);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 3rem;
+    font-weight: 600;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 12%);
+    transition: box-shadow .2s;
+    text-decoration: none;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+.docs:hover {
+    box-shadow: 
+    0 10px 15px -3px rgb(0 0 0 / 10%), 
+    0 4px 6px -2px rgb(0 0 0 / 5%);
+}
+
+.free:hover {
+    opacity: 0.8;
+}
+a:hover {
+    cursor: pointer;
+}
